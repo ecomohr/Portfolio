@@ -4,12 +4,28 @@
     <style>
       body{background-color:pink;
            font-family:georgia}
+      #sidebar{
+        width:300px;
+        height:100%;
+        padding:50px;
+        position:fixed;
+      }
+      #content{
+         width:800px
     </style>
   </head>
 <body>
-<h1 style="text-align:center;">Eknoor Kaur</h1> 
+  <div id="sidebar">
+    <a href="" id="sidebarlink">Home</a>
+    <a href="" id="sidebarlink">About me</a>
+    <a href="" id="sidebarlink">My Portfolio</a>
+    <a href="" id="sidebarlink">Warriors Stuff</a>
+    <a href="" id="sidebarlink">Contact Information</a>
+  </div>
+  <div id="title"> <h1 style="text-align:center;">Eknoor Kaur</h1> </div> 
 <hr>
-<h2 style="test-align:center;">Welcome! Please use the toolbar below to navigate the site.</h2>
+<div id="content"> 
+  <h2 style="test-align:center;">Welcome! Please use the toolbar below to navigate the site.</h2>
 <p1 style="font-size:25px;">
   <img src="https://summercollegeapp.stanford.edu/_/i/stan-header@2x.jpg" alt="Stanford University" style="float:left;width:20;height:20;">
   Full Name: Eknoor Kaur<br>
@@ -29,6 +45,7 @@
  <p2 style="font-size:25px;"> We built multiple different circuits in class today. 
     <a href = "https://mail.google.com/mail/u/0/#inbox/15ce69392757c850?projector=1">Click here to see one.</a>
    It is a series circuit with two resistors and two different LEDs. </p2>
+  </div>
   
 </body>
 </html>
